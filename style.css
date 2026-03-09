@@ -29,6 +29,10 @@ body {
     margin-right: 15px;
   }
   
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
   .hero {
     background-color: white;
     padding: 30px;
@@ -49,4 +53,43 @@ body {
     border-radius: 10px;
     flex: 1;
     min-width: 220px;
+    transition: transform 0.2s ease;
+  }
+  
+  .service:hover {
+    transform: translateY(-4px);
+  }
+  
+  input,
+  button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #1f3c88;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #162d66;
+  }
+  
+  @media (max-width: 700px) {
+    header,
+    footer,
+    main {
+      padding: 15px;
+    }
+  
+    nav a {
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+  
+    #services {
+      flex-direction: column;
+    }
   }
