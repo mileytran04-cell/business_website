@@ -10,23 +10,57 @@
     <header>
       <h1>Bright Path Studio</h1>
       <nav>
-        <a href="#">Home</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
 
-    <main>
-      <section>
+    <main id="home">
+      <section class="hero">
         <h2 id="cta">Grow Your Small Business With a Better Website</h2>
         <p>
           Bright Path Studio helps small businesses create simple, modern, and
           professional online spaces that make a strong first impression.
         </p>
       </section>
+
+      <section id="services">
+        <h3>Our Services</h3>
+
+        <div class="service">
+          <h4>Website Design</h4>
+          <p>
+            Clean and responsive websites built to help your business look more
+            professional online.
+          </p>
+        </div>
+
+        <div class="service">
+          <h4>Brand Support</h4>
+          <p>
+            Help with visual presentation, messaging, and creating a stronger
+            business identity.
+          </p>
+        </div>
+
+        <div class="service">
+          <h4>Content Updates</h4>
+          <p>
+            Ongoing updates so your business information stays fresh and useful
+            for customers.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h3>Update the Call to Action</h3>
+        <input type="text" id="headlineInput" placeholder="Enter a new headline" />
+        <button id="updateButton">Update Headline</button>
+      </section>
     </main>
 
-    <footer>
+    <footer id="contact">
       <p>Email: hello@brightpathstudio.com</p>
       <p>Phone: (555) 234-7890</p>
     </footer>
