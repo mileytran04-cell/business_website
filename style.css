@@ -28,3 +28,25 @@ body {
     text-decoration: none;
     margin-right: 15px;
   }
+  
+  .hero {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  #services {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .service {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 220px;
+  }
