@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #222;
+  }
+  
+  header,
+  footer {
+    background-color: #1f3c88;
+    color: white;
+    padding: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin-top: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+  }
